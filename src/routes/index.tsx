@@ -6,14 +6,14 @@ import { Switch, Route } from "react-router-dom";
 const Dashboard = React.lazy(
   () =>
     import(
-      /* webpackPrefetch: "true" */
+      /* webpackPrefetch: true */
       /* webpackChunkName: "dashboard" */ "../pages/Dashboard"
     )
 );
 const Repo = React.lazy(
   () =>
     import(
-      /* webpackPrefetch: "true" */
+      /* webpackPrefetch: true */
       /* webpackChunkName: "repo" */ "../pages/Repo"
     )
 );
